@@ -1430,34 +1430,6 @@ const theme = colorScheme === 'dark' ? darkTheme : lightTheme
 <MarkdownView content={markdown} theme={theme} />
 ```
 
-### Android
-
-**Font Rendering:**
-- Uses Roboto font by default
-- Code blocks use system monospace font
-- Supports custom fonts via `fontFamily` in theme
-
-**Back Button Handling:**
-```typescript
-import { BackHandler } from 'react-native'
-
-useEffect(() => {
-  const backHandler = BackHandler.addEventListener('hardwareBackPress', () => {
-    // Handle back button for deep markdown links
-    if (canGoBack) {
-      goBack()
-      return true
-    }
-    return false
-  })
-
-  return () => backHandler.remove()
-}, [])
-```
-
-**Dark Mode:**
-Same as iOS - use `useColorScheme()` hook
-
 ### Performance Characteristics
 
 | Document Size | Parse Time | Rendering Time |
