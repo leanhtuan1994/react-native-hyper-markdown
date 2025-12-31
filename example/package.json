@@ -1,0 +1,42 @@
+{
+  "name": "react-native-hyper-markdown-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start --reset-cache",
+    "test": "jest",
+    "pod": "bundle install && bundle exec pod install --project-directory=ios"
+  },
+  "dependencies": {
+    "@react-native/new-app-screen": "0.83.1",
+    "@react-navigation/native": "^7.1.26",
+    "@react-navigation/native-stack": "^7.9.0",
+    "react": "19.2.0",
+    "react-native": "0.83.1",
+    "react-native-nitro-modules": "0.32.0",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "^4.19.0",
+    "react-syntax-highlighter": "^16.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.0.0",
+    "@react-native-community/cli-platform-android": "20.0.0",
+    "@react-native-community/cli-platform-ios": "20.0.0",
+    "@react-native/babel-preset": "0.83.1",
+    "@react-native/eslint-config": "0.83.1",
+    "@react-native/metro-config": "0.83.1",
+    "@react-native/typescript-config": "0.83.1",
+    "@types/jest": "^29.5.13",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "babel-plugin-module-resolver": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

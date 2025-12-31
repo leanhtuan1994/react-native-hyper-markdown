@@ -1,0 +1,23 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "hypermarkdown"
+  ],
+  "ios": {
+    "iosModuleName": "HyperMarkdown"
+  },
+  "android": {
+    "androidNamespace": [
+      "hypermarkdown"
+    ],
+    "androidCxxLibName": "HyperMarkdown"
+  },
+  "autolinking": {
+    "HyperMarkdown": {
+      "cpp": "HybridHyperMarkdown"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
