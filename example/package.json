@@ -32,7 +32,7 @@
     "@react-native/eslint-config": "0.83.1",
     "@react-native/metro-config": "0.83.1",
     "@react-native/typescript-config": "0.83.1",
-    "@types/jest": "^29.5.13",
+    "@types/jest": "^30.0.0",
     "@types/react-syntax-highlighter": "^15.5.13",
     "babel-plugin-module-resolver": "^5.0.2"
   },
