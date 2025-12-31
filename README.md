@@ -22,6 +22,16 @@ High-performance markdown parser and renderer for React Native. Built with Nitro
 - **Live Preview**: Debounced parsing hook for real-time editors
 - **Cross-Platform**: iOS and Android with zero code differences
 
+## Screenshots
+
+| Basic Rendering | Theming |
+|:---:|:---:|
+| ![Basic Rendering](https://raw.githubusercontent.com/leanhtuan1994/react-native-hyper-markdown/main/screenshots/basic_rendering.png) | ![Theming](https://raw.githubusercontent.com/leanhtuan1994/react-native-hyper-markdown/main/screenshots/theming.png) |
+
+| Code Blocks | Live Preview |
+|:---:|:---:|
+| ![Code Blocks](https://raw.githubusercontent.com/leanhtuan1994/react-native-hyper-markdown/main/screenshots/code_blocks.png) | ![Live Preview](https://raw.githubusercontent.com/leanhtuan1994/react-native-hyper-markdown/main/screenshots/live_preview.png) |
+
 ## Requirements
 
 - **React Native**: 0.76.0+ (0.78.0+ for Nitro Views support)
@@ -1664,15 +1674,6 @@ npm install
 - Bundle size is critical concern
 - You don't need native performance
 
-## Documentation
-
-For comprehensive documentation, guides, and examples:
-
-- **[System Architecture](./docs/system-architecture.md)** - How the system works internally
-- **[Code Standards](./docs/code-standards.md)** - Development guidelines
-- **[Project Overview & PDR](./docs/project-overview-pdr.md)** - Project requirements and features
-- **[Codebase Summary](./docs/codebase-summary.md)** - Directory structure and modules
-
 ## Example App
 
 Clone the repository and run the example app:
@@ -1692,14 +1693,6 @@ npm run android # Run on Android
 - Live preview with debounce: 300ms default
 
 All parsing happens on a native thread (non-blocking) via Nitro's threadpool.
-
-## Contributing
-
-Pull requests are welcome! For major changes:
-1. Open an issue first to discuss
-2. Follow the [Code Standards](./docs/code-standards.md)
-3. Ensure types pass and tests run
-4. Update documentation
 
 ## License
 
